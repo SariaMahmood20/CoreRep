@@ -1,0 +1,113 @@
+{
+   "checksum": "d04c29831135e0b8aa2f819a194331a5",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13235911430719356",
+            "date_last_used": "0",
+            "guid": "802a6b6a-6c5f-499c-8e64-8b964c5abdba",
+            "id": "7",
+            "name": "Nyaa.si",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://nyaa.si/"
+         }, {
+            "date_added": "13244984221930028",
+            "date_last_used": "0",
+            "guid": "4cec32c6-2d11-4e25-8e81-991860d89b4c",
+            "id": "8",
+            "name": "Profile Information - Bahria University",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://cms.bahria.edu.pk/Sys/Student/Profile.aspx"
+         }, {
+            "date_added": "13280903652880465",
+            "date_last_used": "0",
+            "guid": "14917232-3ecd-4853-ba18-4fb673705852",
+            "id": "9",
+            "name": "VS2013",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://getintopc.com/softwares/development/visual-studio-2013-download-2892272/"
+         }, {
+            "date_added": "13358420777934598",
+            "date_last_used": "0",
+            "guid": "fef5ddcf-a259-4c88-a340-c2ec449a11b9",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Detect Faces with ML Kit on Android  |  ML Kit for Firebase",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://firebase.google.com/docs/ml-kit/android/detect-faces"
+         } ],
+         "date_added": "13360683739581006",
+         "date_last_used": "0",
+         "date_modified": "13358420777934598",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13360683739581013",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13240856875911315",
+            "date_last_used": "0",
+            "guid": "75ae62c9-9359-4572-90a5-35c3826857e3",
+            "id": "11",
+            "name": "(44) Question",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.quora.com/Do-brothers-kiss-their-sisters?top_ans=222490694"
+         }, {
+            "date_added": "13245184738964691",
+            "date_last_used": "0",
+            "guid": "47790406-e0af-40db-9ba1-d7799cae61fe",
+            "id": "12",
+            "name": "Inbox | Temporary Disposable Gmail",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://gmailnator.com/mailbox/#navytmp+mgpdk@gmail.com"
+         }, {
+            "date_added": "13248560413980807",
+            "date_last_used": "0",
+            "guid": "c2b17e0e-2e06-46ab-b37a-f0edfa98f38e",
+            "id": "13",
+            "name": "New tab",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.cuties4you.net/c/4c8a669b83e6c2d3?&click_id=vuedo5f9c6c1a677a0902686663&s1=35629&s2=1111535&s3=backuser&s5=&lp=MJ&j4=&j5=&j6="
+         } ],
+         "date_added": "13360683739581016",
+         "date_last_used": "0",
+         "date_modified": "13248560413980807",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCGv9jHqPAQAAEgAqGDJxbmtJYnNrR1NQWTZha3JFMnUzYkE9PUgDoAYHEqgBCAoSowEKHDRrTklMK2J5bGUvdHlVTFp3d3VBVVUvYlRNUT0SJGZlZjVkZGNmLWEyNTktNGM4OC1hMzQwLWMyZWM0NDlhMTFiORgAIAAoADDn+rPU9zE4s4va+fAxQLOL2vnwMUocT3RVZGtSMUQ0KzhPZWJyR0lBbXQyNW4vVlhJPVofIh24L1BwaW56M3FMZ1RLUTh5OStsYTlySElZNGpjPWUAAAAAEokBCAMShAEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDRkMzQ4ODkzLTNmMmMtNTNlNi04MzEyLWRkOGU0NzZlZWI5ZBgAIAAoADDqypCu0C845MXCgO0vQOTFwoDtL0oceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAASpwEICBKiAQocYXNYYitJK1hvb05FVFBnMTRwc1hqS2hUcWJZPRIkNGNlYzMyYzYtMmQxMS00ZTI1LThlODEtOTkxODYwZDg5YjRjGAAgACgAMOj6s9T3MTjHlqf32jBAx5an99owShw2WG5GcnRPSXhlMjVka1hYMTZKbnhmS1JRTFk9Wh4iHGVRSVVsaU9MTG1WZFJEaklsVXEzN1poa2l4dz1lAAAAABKnAQgHEqIBChxZSUJNQmR3cCtLUzYvYXh3YXN3Y2owbVFFd3c9EiQ4MDJhNmI2YS02YzVmLTQ5OWMtOGU2NC04Yjk2NGM1YWJkYmEYACAAKAAw6fqz1PcxOJWXp/faMECVl6f32jBKHFE0TkwxWXY3SzVjR3VQQjdUa0xMeFE3UDJacz1aHiIcYjlaL0ZoM0dnTFJNWkdvejJxZHlxVHBlNW9BPWUAAAAAEqcBCAsSogEKHDVNWTBCdG40dVF5R3ZCeVJnWEVFdWZIOUdBUT0SJDc1YWU2MmM5LTkzNTktNDU3Mi05MGE1LTM1YzM4MjY4NTdlMxgAIAAoADCslaf32jA49pan99owQPaWp/faMEocazUyWlFTdTVsdUR3UjBrc002K0FoZEdoTjZJPVoeIhxnQlJoVWdIeU1qV0g5N0xnZjJjUWNiak5ScXc9ZR+aZukSpwEICRKiAQoceWFIRkxDckg0NVJtK1RjRXUxRXM0RXRGZk9ZPRIkMTQ5MTcyMzItM2VjZC00ODUzLWJhMTgtNGZiNjczNzA1ODUyGAAgACgAMOr6s9T3MTjmlqf32jBA5pan99owShxJN3RrRHVPVW8yZ0YyWklmY0RlQTk2MU0wQ2s9Wh4iHHBVWkNIZFpiM3YrV1BlcldQd0FldnkvUmw3dz1lAAAAABKJAQgBEoQBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiRmNmM4NjFjMS1lN2I3LTU4ZmUtYWUyZi1kYzQyNjgxODRlNzQYACAAKAAw6sqQrtAvOIPGwoDtL0CDxsKA7S9KHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEqgBCA0SowEKHHJDYVRIRFg3dmhCTDJUd0wvTERyVStkWWdNTT0SJGMyYjE3ZTBlLTJlMDYtNDZhYi1iMzdhLWYwZWRmYTk4ZjM4ZRgAIAAoADCplaf32jA4qJan99owQKiWp/faMEocWUtUYnJKVkVDSkNKWGhIc3NOckloakRNWlg4PVofIh3ZZGRud25FYUM4QlBHWHkyYTMwS1hVaVp0ZkRrPWXYoDbtEqgBCAwSowEKHGRKUWdTMWVjUExoSU9kV0lTVEpxcUJvU2RLUT0SJDQ3NzkwNDA2LWUwYWYtNDBkYi05YmExLWQ3Nzk5Y2FlNjFmZRgAIAAoADColaf32jA4mJan99owQJiWp/faMEocSUVhSUJsVXd3MDFmQUQveGlZa055UHhjU0pzPVofIh2zVGx1SkVvdGZvcXVjT2UrMmNDeUpNazB0OS9ZPWXRSglREokBCAIShAEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJGY5YjVjOTJmLTBkYzItNTQ1NS05MDEyLWQ1NjYwZjA2MGU1YhgAIAAoADDqypCu0C84osbCgO0vQKLGwoDtL0ocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAAwADgA",
+   "version": 1
+}

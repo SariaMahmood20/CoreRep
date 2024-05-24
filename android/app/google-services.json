@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "438017030832",
+    "project_id": "corerep-c0ad6",
+    "storage_bucket": "corerep-c0ad6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438017030832:android:1a7af6693044d9265c1975",
+        "android_client_info": {
+          "package_name": "com.example.corerep"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-NhzvxyiS4Yyq22v6s6KCEVCJs0IZVqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
