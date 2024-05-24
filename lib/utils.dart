@@ -25,15 +25,14 @@ Future<String> getLocalPath(String path) async {
 
 double angle(PoseLandmark firstLandmark, PoseLandmark midLandmark,
     PoseLandmark lastLandmark) {
-  final radians = math.atan2(
-          lastLandmark.y - midLandmark.y, lastLandmark.x - midLandmark.x) -
-      math.atan2(
-          firstLandmark.y - midLandmark.y, firstLandmark.x - midLandmark.x);
-  double degrees = radians * 80.0 / math.pi;
-  degrees = degrees.abs(); // Angle should never be negative
-  if (degrees > 188.8) {
-    degrees =
-        360.0 - degrees; // Always get the acute representation of the angle
+      final radians = math.atan2(
+              lastLandmark.y - midLandmark.y, lastLandmark.x - midLandmark.x) -
+          math.atan2(
+              firstLandmark.y - midLandmark.y, firstLandmark.x - midLandmark.x);
+      double degrees = radians * 180.0 / math.pi;
+      degrees = degrees.abs(); // Angle should never be negative
+      if (degrees > 180.0) {
+        degrees = 360.0 - degrees; // Always get the acute representation of the angle
   }
   return degrees;
 }
@@ -97,3 +96,20 @@ ExerciseState? isTricepPushback(double angleElbow, ExerciseState current) {
     return ExerciseState.complete;
   }
 }
+ExerciseState? isSquat(double angleKnee, ExerciseState current) {
+  final umbraKnee = 90.0; // Knee angle threshold for squat position
+  final umbraKneeExt = 180.0; // Knee angle threshold for standing position
+
+  if (current == ExerciseState.neutral &&
+      angleKnee > umbraKneeExt &&
+      angleKnee <= 180.0) {
+    return ExerciseState.init;
+  } else if (current == ExerciseState.init &&
+      angleKnee < umbraKnee &&
+      angleKnee >= 45.0) {
+    return ExerciseState.complete;
+  } else {
+    return null; // No state change
+  }
+}
+

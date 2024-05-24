@@ -11,9 +11,9 @@ void main() async {
 
 class CoreRep extends StatelessWidget {
   const CoreRep({super.key});
-
   @override
   Widget build(BuildContext context) {
+
     return const MaterialApp(
       home: SplashPage(),
     );

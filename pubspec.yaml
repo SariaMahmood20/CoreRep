@@ -40,12 +40,13 @@ dependencies:
   firebase_storage: ^11.5.6
   firebase_database: ^10.3.8
   cloud_firestore: ^4.17.3
+  flutter_bloc: ^8.1.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.2
-  flutter_bloc: ^8.1.3
+
   google_ml_kit: ^0.16.2
   image_picker: ^1.0.1
   camera: ^0.10.5+2
@@ -69,9 +70,17 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/screen.jpg
-    - assets/images/benchpress.jpg
-    - assets/images/deadlift.jpg
-    - assets/images/squats.jpg
+    - assets/images/bicepCurls.jpg
+    - assets/images/diamondPushup.jpg
+    - assets/images/pushupfirst.PNG
+    - assets/images/tricepPushback.jpg
+    - assets/images/pushupsfront.jpeg.jpg
+    - assets/images/bicepCurlsfront.jpg
+    - assets/images/pushupfirst.PNG
+    - assets/images/diamondpushupfront.jpg
+    - assets/images/tricep.jpg
+    - assets/images/sq.jpg
+    - assets/images/squatsFront.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -82,11 +82,6 @@ class _RegisterPageState extends State<RegisterPage> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Image.asset(
-                      'assets/images/screen.png',
-                      width: 130,
-                      height: 130,
-                    ),
                     SizedBox(
                       height: 25,
                     ),

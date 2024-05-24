@@ -7,24 +7,28 @@ class ExerciseOption extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Center(
-          child: Align(
-        alignment: Alignment.bottomLeft,
-        child: Text(
-          exerciseName,
-          style: TextStyle(
-              color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20),
-        ),
-      )),
       height: 193,
       width: 368,
       margin: EdgeInsets.symmetric(vertical: 20.0),
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           image: DecorationImage(
-            image: NetworkImage(imageAddress),
+            image: AssetImage(imageAddress),
             fit: BoxFit.fill,
           )),
+      child: Center(
+          child: Align(
+        alignment: Alignment.bottomLeft,
+        child: Container(
+          padding: EdgeInsetsDirectional.only(start: 10),
+          child: Text(
+            exerciseName,
+            style: TextStyle(
+                color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20),
+          ),
+        ),
+      )),
+
     );
   }
 }

@@ -10,7 +10,7 @@ import '../Models/push_up_model.dart';
 import '../utils.dart' as utils;
 
 class GlobalValue {
-  static final angle;
+  static double Ang=0;
 }
 
 class CameraView extends StatefulWidget {
@@ -93,6 +93,7 @@ class _CameraViewState extends State<CameraView> {
       if (p1 != null && p2 != null && p3 != null) {
         final rtaAngle = utils.angle(p1!, p2!, p3!);
         final rta = utils.isPushUp(rtaAngle, bloc.state);
+        GlobalValue.Ang=rtaAngle;
         print('Angle: ${rtaAngle.toStringAsFixed(2)}');
         if (rta != null) {
           if (rta == ExerciseState.init) {
@@ -106,6 +107,7 @@ class _CameraViewState extends State<CameraView> {
         final rtaAngle = utils.angle(p1!, p2!, p3!);
         final rta = utils.isBicepCurl(rtaAngle, bloc.state);
         print('Angle: ${rtaAngle.toStringAsFixed(2)}');
+        GlobalValue.Ang=rtaAngle;
         if (rta != null) {
           if (rta == ExerciseState.init) {
             bloc.setExerciseState(rta);
@@ -117,6 +119,7 @@ class _CameraViewState extends State<CameraView> {
       if (p1 != null && p2 != null && p3 != null) {
         final rtaAngle = utils.angle(p1!, p2!, p3!);
         final rta = utils.isDiamondPushup(rtaAngle, bloc.state);
+        GlobalValue.Ang=rtaAngle;
         print('Angle: ${rtaAngle.toStringAsFixed(2)}');
         if (rta != null) {
           if (rta == ExerciseState.init) {
@@ -181,8 +184,6 @@ class _CameraViewState extends State<CameraView> {
         ],
       ),
     );
-  }
-
   Widget _counterWidget() {
     final bloc = BlocProvider.of<ExerciseCounter>(context);
     return Positioned(
@@ -193,7 +194,7 @@ class _CameraViewState extends State<CameraView> {
           child: Column(
             children: [
               const Text(
-                'Counter',
+                'Angle',
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
@@ -209,7 +210,7 @@ class _CameraViewState extends State<CameraView> {
                   borderRadius: BorderRadius.all(Radius.circular(12)),
                 ),
                 child: Text(
-                  '${bloc.counter}',
+                  '${GlobalValue.Ang.toStringAsFixed(2)}',
                   textAlign: TextAlign.center,
                   style: const TextStyle(
                     color: Colors.white,
@@ -250,7 +251,8 @@ class _CameraViewState extends State<CameraView> {
         child: SizedBox(
           height: 50.0,
           width: 50.0,
-          child: FloatingActionButton(
+          child:
+          FloatingActionButton(
             heroTag: Object(),
             onPressed: widget.onDetectorViewModeChanged,
             backgroundColor: Colors.black54,

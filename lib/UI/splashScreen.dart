@@ -32,7 +32,7 @@ class _SplashPageState extends State<SplashPage> {
         width: double.infinity,
         decoration: BoxDecoration(
             image:
-                DecorationImage(image: AssetImage('assets/images/screen.jpg'))),
+                DecorationImage(image: AssetImage('assets/images/screen.jpg'), fit: BoxFit.fill)),
         child: Center(
           child: Text(
             'Welcome to the CoreRep',
